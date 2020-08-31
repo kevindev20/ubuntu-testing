@@ -1,0 +1,58 @@
+
+ SUBLIME  TEXT
+
+Install Sublime text.
+Open sublime  then ctrl + shift + p  search and install package control. Restart sublime text.
+ctrl + shift + p   select package control: install package then search for  the following packages.
+babel
+sidebar enhancements 
+a file icon
+git gutter
+bracket highlighter
+material  theme
+oceanic next color scheme
+Restart Sublime text.
+
+Copy recommended material theme settings from material theme's git hub(https://github.com/equinusocio/material-theme) . Open sublime
+text settings under preferences. A new window will  open  containing the settings of sublime text. On the right handside of the new window
+just before the closing parentheses paste the default  setting of material theme.
+
+
+Now under preferences you can change the color ,theme e.t.c.
+
+To change the font download from google (e.g roboto font) and copy the font over to control panel - fonts(or its linux variant). Then under
+preferences - settings on sublime text in the default material theme settings  you just added  you can add " font_face" : " Roboto Mono",
+as the last line of those settings
+
+In sublime text open view - syntax  then set sublime text to be opening all current extensions with babel for ES6 and beyond compatibility.
+
+
+
+
+GITHUB
+
+
+Create new repo on git hub and set it to public...for now . Intialize it with a read me for description purposes. (if it already exists move to the second point)
+
+Copy the link to the new created repo on github and make sure the link is in https.
+
+On the terminal inside your working directory(cd into it) run this command git clone the attach your copied http repo link i.e. git clone https://github.com/kevindev20/ubuntu-testing.git
+
+Copy over your project files (if any) into the newly created  git repo on you pc. Then cd into that repo so that you can ran git commands.
+
+Use this link https://askubuntu.com/questions/730754/how-do-i-show-the-git-branch-with-colours-in-bash-prompt to enable viewing which branch your on in the terminal  on ubuntu/linux.
+
+In the terminal run the following commands to use git:-
+													(a) git status --> to view th status of the files in your new working directory.
+													(b) git  add  . --> to add monitoring  for changes and commiting ,to all the files in your working directory.t
+																			To add indvidual files you can do something like this:  git add index.html . i,e  as the add . adds all the files.
+													(c) git commit  -m "you comments go hia"	---> to commit the file/s.
+													(d) git push  --> to push you repo to git hub
+																			
+
+
+
+
+
+
+
